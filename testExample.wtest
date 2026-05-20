@@ -1,9 +1,14 @@
-import example.pepita
+import elementos.*
+import deportes.*
+import example.*
 
 describe "group of tests for pepita" {
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+  test "parecerse a pareto" {
+    victoria.definirAltura(150)
+    victoria.disciplinaQuePractica(judo)
+    victoria.definirCantidadEntrenadores(4)
+    assert.equals(traje,victoria.elementoIndeispensable())
   }
 
 }
